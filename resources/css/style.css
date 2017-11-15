@@ -1,0 +1,63 @@
+html {
+  font-size: 16px;
+}
+
+
+header {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0 1.5rem;
+}
+
+header span {
+  display: inline-block;
+}
+
+header .academy {
+  display: flex;
+  align-items: center;
+}
+
+.academy img {
+  height: 2rem;
+}
+
+header h2 {
+  font-size: 1.4rem;
+}
+
+#dark h2 {
+  color: gray;
+}
+
+#light h2 {
+  color: darkgray;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.learncontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 1.5rem;
+}
+
+.learncontainer img {
+  width: 60%;
+  height: auto;
+}
+
+.learn {
+  margin-left: 1.5rem;
+}
+
+.learn .button {
+  text-align: center;
+}
