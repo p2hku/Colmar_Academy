@@ -2,6 +2,14 @@ html {
   font-size: 16px;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size:
+  1.5rem;
+}
 
 header {
   height: 4rem;
@@ -41,23 +49,83 @@ nav ul li {
   display: inline-block;
   margin-left: 16px;
 }
-
-.learncontainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2rem 1.5rem;
-}
-
-.learncontainer img {
-  width: 60%;
-  height: auto;
-}
-
 .learn {
   margin-left: 1.5rem;
+  height: 100%;
 }
 
 .learn .button {
   text-align: center;
+  background-color: #696969;
+  height: 4rem;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 2.6rem;
+}
+
+.bigcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2rem 1.5rem;
+}
+
+.bigcontainer img {
+  width: 100%;
+  height: auto;
+}
+
+.leftcontainer {
+  width: 60%;
+}
+
+.rightcontainer {
+  width: 40%;
+  height: 100%;
+}
+
+.smallcontainer {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  justify-content: flex-end;
+}
+
+.smallcontainer h3,
+h4,
+a {
+  margin: 0.5rem;
+}
+
+.smallcontainer picture {
+  width: 35%;
+  height: auto;
+}
+
+.smallcontainer img {
+  margin: 1rem;
+  width: 35%;
+}
+
+.smallcontainer .text {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.startcontainer {
+  text-align: center;
+}
+.firstrow {
+  display: flex;
+}
+
+.section {
+  text-align: left;
 }
