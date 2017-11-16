@@ -75,7 +75,8 @@ nav ul li {
   margin: 2rem 1.5rem;
 }
 
-.bigcontainer img {
+.bigcontainer img,
+video {
   width: 100%;
   height: auto;
 }
@@ -121,11 +122,41 @@ a {
 
 .startcontainer {
   text-align: center;
+  width: 100%;
 }
+
+.startcontainer h2 {
+  margin-top: 4rem;
+  margin-bottom: 0;
+}
+
+.sectioncontainer {
+  margin: 2rem 4rem;
+}
+
 .firstrow {
   display: flex;
 }
 
 .section {
   text-align: left;
+}
+
+.section img {
+  width: 100%;
+  height: auto;
+}
+
+.middle {
+  margin: 0 2rem;
+}
+
+.secondrow {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.thesis {
+  text-align: center;
+  margin: 4rem 2rem;
 }
