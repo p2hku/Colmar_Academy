@@ -3,9 +3,7 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
-body {
-
-}
+/*Font-size and font-weight for all headings and paragraphs */
 h1 {
   font-size: 4rem;
   margin-top: 0;
@@ -38,6 +36,7 @@ h6 {
   font-weight: 400;
 }
 
+/*Header section */
 header {
   height: 4rem;
   display: flex;
@@ -76,6 +75,8 @@ nav ul li {
   display: inline-block;
   margin-left: 16px;
 }
+
+/*Main container section */
 .learn {
   margin-left: 1.5rem;
   height: 100%;
@@ -95,7 +96,7 @@ nav ul li {
   margin-top: 2.6rem;
 }
 
-
+/*Positioning and attributes for all containers which repeat over the webpage */
 .bigcontainer {
   display: flex;
   justify-content: flex-start;
@@ -110,8 +111,6 @@ nav ul li {
   display: flex;
   align-items: center;
 }
-
-
 
 .bigcontainer img,
 video {
@@ -131,7 +130,6 @@ video {
   flex-direction: column;
   justify-content: flex-start;
 }
-
 
 .rightcontainer .top {
   padding-top: 0;
@@ -184,6 +182,7 @@ a {
   display: flex;
 }
 
+/*Courses section */
 .section {
   text-align: left;
   width: 100%;
@@ -210,6 +209,7 @@ a {
   padding-top: 1rem;
 }
 
+/*Footer section */
 footer {
   display: flex;
   justify-content: space-between;
