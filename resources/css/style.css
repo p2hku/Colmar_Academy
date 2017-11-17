@@ -1,14 +1,41 @@
 html {
   font-size: 16px;
+  font-family: "Montserrat", sans-serif;
 }
 
+body {
+
+}
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+  margin-top: 0;
+  font-weight: 600;
 }
 
 h2 {
-  font-size:
-  1.5rem;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 2rem;
+  margin:0.75rem 0;
+  font-weight: 400;
 }
 
 header {
@@ -68,10 +95,20 @@ nav ul li {
   margin-top: 2.6rem;
 }
 
+
 .bigcontainer {
   display: flex;
   justify-content: flex-start;
   margin: 2rem 1.5rem;
+}
+
+#margintop {
+  margin-top: 4rem;
+}
+
+#center {
+  display: flex;
+  align-items: center;
 }
 
 
@@ -94,6 +131,7 @@ video {
   flex-direction: column;
   justify-content: flex-start;
 }
+
 
 .rightcontainer .top {
   padding-top: 0;
@@ -135,7 +173,7 @@ a {
 
 .startcontainer h2 {
   margin-top: 4rem;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
 }
 
 .sectioncontainer {
@@ -148,6 +186,8 @@ a {
 
 .section {
   text-align: left;
+  width: 100%;
+  height: auto;
 }
 
 .section img {
@@ -168,4 +208,16 @@ a {
   text-align: center;
   margin: 2rem;
   padding-top: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 1.5rem;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: 1rem;
 }
