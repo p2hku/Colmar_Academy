@@ -76,55 +76,29 @@ nav ul li {
   margin-left: 16px;
 }
 
+ul li a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+a:link {
+  color: gray;
+}
+
+nav a:hover {
+  color: dodgerblue;
+}
+
 .mobile {
   display: none;
 }
 
-@media only screen and (max-width: 1320px) {
-  h1 {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-  }
-  .learn .button {
-    margin-top: 1rem;
-  }
+.main_mobile {
+  display: none;
 }
 
-@media only screen and (max-width: 1110px) {
-  .desktop {
-    display: none;
-  }
-  .mobile {
-    height: 4rem;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 4rem;
-  }
-}
-
-/*Main container section */
-.learn {
-  margin-left: 1.5rem;
-  height: 100%;
-}
-
-.learn .button {
-  text-align: center;
-  background-color: #696969;
-  height: 4rem;
-  width: 100%;
-  margin: auto;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  color: white;
-  font-size: 1.2rem;
-  margin-top: 2.6rem;
-}
-
-@media only screen and (max-width: 1110px) {
-  
+.thesis_mobile {
+  display: none;
 }
 
 /*Positioning and attributes for all containers which repeat over the webpage */
@@ -134,13 +108,8 @@ nav ul li {
   margin: 2rem 1.5rem;
 }
 
-#margintop {
+#information_desktop {
   margin-top: 4rem;
-}
-
-#main_desktop {
-  display: flex;
-  align-items: center;
 }
 
 .bigcontainer img,
@@ -177,11 +146,6 @@ a {
   margin: 0.5rem 0;
 }
 
-.smallcontainer picture {
-  width: 35%;
-  height: auto;
-}
-
 .smallcontainer img {
   width: 35%;
 }
@@ -189,10 +153,117 @@ a {
 .smallcontainer .text {
   width: 60%;
   margin-left: 1rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
+
+.information_mobile {
+  display: none;
+}
+
+#start_mobile {
+  display: none;
+}
+
+.button span {
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 1320px) {
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  .learn .button {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+  }
+  #information_desktop {
+    display: none;
+  }
+}
+
+/*Main container section */
+.learn {
+  margin-left: 1.5rem;
+  height: 100%;
+}
+
+.learn .button {
+  text-align: center;
+  background-color: #696969;
+  height: 4rem;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 2.6rem;
+}
+
+#main_desktop {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1110px) {
+  #main_desktop {
+    display: none;
+  }
+  .main_mobile {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+
+  .main_mobile img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+
+  .smallcontainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .smallcontainer .text {
+    margin-top: 1rem;
+    width: 90%;
+  }
+
+  .smallcontainer img {
+    width: 100%;
+  }
+  .information_mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .learn {
+    margin: 1rem;
+  }
+}
+
 
 .startcontainer {
   text-align: center;
@@ -206,6 +277,10 @@ a {
 
 .sectioncontainer {
   margin: 2rem 4rem;
+}
+
+.sectiontext {
+  margin-left: 1rem;
 }
 
 .firstrow {
@@ -239,6 +314,38 @@ a {
   padding-top: 1rem;
 }
 
+@media only screen and (max-width: 1110px) {
+  #start_desktop {
+    display: none;
+  }
+  #start_mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .starttext {
+    margin-top: 4rem;
+    text-align: center;
+  }
+  #start_mobile span {
+    background-color: lightgray;
+    margin: 0.5rem;
+  }
+  #start_mobile h3 {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .thesis_desktop {
+    display: none;
+  }
+  .thesis_mobile {
+    display: block;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+}
+
 /*Footer section */
 footer {
   display: flex;
@@ -250,4 +357,13 @@ footer {
 ul li {
   display: inline-block;
   margin-left: 1rem;
+}
+
+@media only screen and (max-width: 660px) {
+  footer ul {
+    display: none
+  }
+  footer {
+    margin: 1rem;
+  }
 }
