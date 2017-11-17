@@ -37,7 +37,7 @@ h6 {
 }
 
 /*Header section */
-header {
+.desktop {
   height: 4rem;
   display: flex;
   align-items: center;
@@ -56,15 +56,15 @@ header .academy {
 }
 
 .academy img {
-  height: 2rem;
+  height: 3rem;
 }
 
 header h2 {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 #dark h2 {
-  color: gray;
+  color: DimGray;
 }
 
 #light h2 {
@@ -74,6 +74,33 @@ header h2 {
 nav ul li {
   display: inline-block;
   margin-left: 16px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1320px) {
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  .learn .button {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+  }
 }
 
 /*Main container section */
@@ -96,6 +123,10 @@ nav ul li {
   margin-top: 2.6rem;
 }
 
+@media only screen and (max-width: 1110px) {
+  
+}
+
 /*Positioning and attributes for all containers which repeat over the webpage */
 .bigcontainer {
   display: flex;
@@ -107,7 +138,7 @@ nav ul li {
   margin-top: 4rem;
 }
 
-#center {
+#main_desktop {
   display: flex;
   align-items: center;
 }
@@ -125,20 +156,19 @@ video {
 
 .rightcontainer {
   width: 40%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.rightcontainer .top {
-  padding-top: 0;
-}
-
 .smallcontainer {
   display: flex;
   align-items: center;
-  padding: 1rem;
+  margin: 1rem;
+}
+
+#no_margin_top {
+  margin-top: 0;
 }
 
 .smallcontainer h3,
@@ -158,7 +188,7 @@ a {
 
 .smallcontainer .text {
   width: 60%;
-  margin: 1rem;
+  margin-left: 1rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
