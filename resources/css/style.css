@@ -330,6 +330,11 @@ a {
     background-color: lightgray;
     margin: 0.5rem;
   }
+  #start_mobile span:hover {
+    background-color: lightblue;
+    font-size: 3rem;
+    font-weight: bold;
+  }
   #start_mobile h3 {
     margin-left: 1rem;
   }
