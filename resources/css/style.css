@@ -1,6 +1,11 @@
 html {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+  background-color: Antiquewhite;
+}
+
+body {
+  background-color: Antiquewhite;
 }
 
 /*Font-size and font-weight for all headings and paragraphs */
@@ -44,6 +49,7 @@ h6 {
   justify-content: space-between;
   background-color: white;
   margin: 0 1.5rem;
+  background-color: Antiquewhite;
 }
 
 header span {
@@ -180,6 +186,7 @@ a {
   .desktop {
     display: none;
   }
+
   .mobile {
     height: 4rem;
     align-items: center;
@@ -187,6 +194,7 @@ a {
     justify-content: space-between;
     margin: 0 4rem;
   }
+
   #information_desktop {
     display: none;
   }
@@ -196,6 +204,7 @@ a {
 .learn {
   margin-left: 1.5rem;
   height: 100%;
+  background-color: Antiquewhite;
 }
 
 .learn .button {
@@ -236,6 +245,7 @@ a {
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
+
   h2 {
     font-size: 2rem;
   }
@@ -253,6 +263,7 @@ a {
   .smallcontainer img {
     width: 100%;
   }
+
   .information_mobile {
     display: flex;
     flex-direction: column;
@@ -318,23 +329,28 @@ a {
   #start_desktop {
     display: none;
   }
+
   #start_mobile {
     display: flex;
     flex-direction: column;
   }
+
   .starttext {
     margin-top: 4rem;
     text-align: center;
   }
+
   #start_mobile span {
     background-color: lightgray;
     margin: 0.5rem;
   }
+
   #start_mobile span:hover {
     background-color: lightblue;
     font-size: 3rem;
     font-weight: bold;
   }
+
   #start_mobile h3 {
     margin-left: 1rem;
   }
@@ -344,6 +360,7 @@ a {
   .thesis_desktop {
     display: none;
   }
+
   .thesis_mobile {
     display: block;
     text-align: center;
