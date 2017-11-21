@@ -107,6 +107,15 @@ nav a:hover {
   display: none;
 }
 
+@media only screen and (max-width: 1150px) {
+  .learn h6 {
+    display: none;
+  }
+  .learn h1 {
+    font-size: 3rem;
+  }
+}
+
 /*Positioning and attributes for all containers which repeat over the webpage */
 .bigcontainer {
   display: flex;
@@ -157,7 +166,7 @@ a {
 }
 
 .smallcontainer .text {
-  width: 60%;
+  width: 65%;
   margin-left: 1rem;
 }
 
@@ -182,7 +191,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 960px) {
   .desktop {
     display: none;
   }
@@ -193,6 +202,10 @@ a {
     display: flex;
     justify-content: space-between;
     margin: 0 4rem;
+  }
+
+  .mobile img {
+    height: 2rem;
   }
 
   #information_desktop {
@@ -226,7 +239,7 @@ a {
   align-items: center;
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 960px) {
   #main_desktop {
     display: none;
   }
@@ -275,6 +288,11 @@ a {
   }
 }
 
+@media only screen and (max-width: 1030px) {
+  .text h3 {
+    margin: 0;
+  }
+}
 
 .startcontainer {
   text-align: center;
@@ -325,7 +343,7 @@ a {
   padding-top: 1rem;
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 960px) {
   #start_desktop {
     display: none;
   }
@@ -356,7 +374,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 960px) {
   .thesis_desktop {
     display: none;
   }
